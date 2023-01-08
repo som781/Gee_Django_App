@@ -17,7 +17,7 @@ import ee
 # ee.Initialize()
 
 email = 'somasunder-ee@ee-somasunder.iam.gserviceaccount.com'
-key = 'ee-somasunder-3fcf485d9012.json'
+key = 'gee/ee-somasunder-3fcf485d9012.json'
 credentials = ee.ServiceAccountCredentials(email, key)
 ee.Initialize(credentials)
 

@@ -17,7 +17,7 @@ import ee
 # ee.Initialize()
 
 email = 'somasunder-ee@ee-somasunder.iam.gserviceaccount.com'
-key = '/home/soma/projects/Django-GEE-master/ee-somasunder-3fcf485d9012.json'
+key = 'ee-somasunder-3fcf485d9012.json'
 credentials = ee.ServiceAccountCredentials(email, key)
 ee.Initialize(credentials)
 
